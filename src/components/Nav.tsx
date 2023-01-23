@@ -3,7 +3,7 @@ function Nav() {
     <nav className="nav flex">
       <ul className="nav--left flex">
         <li>
-          <img src="../../public/logo.svg" />
+          <img src="../assets/logo.svg" />
         </li>
         {/* <li>Features</li>
         <li>Pricing</li>
