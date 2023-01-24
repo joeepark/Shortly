@@ -9,7 +9,7 @@ function App() {
   return (
     <>
       <header>
-        <Nav />
+        {/* <Nav /> */}
         <Hero />
       </header>
       <main>

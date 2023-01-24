@@ -2,7 +2,7 @@ function Footer() {
   return (
     <div className="footer">
       <div className="footer--container grid">
-        <img src="../assets/logo.svg" />
+        <img src="/src/assets/logo.svg" />
         <div className="footer--links">
           <h3>Features</h3>
           <ul>
@@ -52,22 +52,22 @@ function Footer() {
           <ul className="flex">
             <li>
               <a href="#">
-                <img src="../assets/icon-facebook.svg" alt="faceboook" />
+                <img src="/src/assets/icon-facebook.svg" alt="faceboook" />
               </a>
             </li>
             <li>
               <a href="">
-                <img src="../assets/icon-twitter.svg" alt="twitter" />
+                <img src="/src/assets/icon-twitter.svg" alt="twitter" />
               </a>
             </li>
             <li>
               <a href="">
-                <img src="../assets/icon-pinterest.svg" alt="pinterest" />
+                <img src="/src/assets/icon-pinterest.svg" alt="pinterest" />
               </a>
             </li>
             <li>
               <a href="">
-                <img src="../assets/icon-instagram.svg" alt="instagram" />
+                <img src="/src/assets/icon-instagram.svg" alt="instagram" />
               </a>
             </li>
           </ul>
