@@ -2,7 +2,7 @@ function Hero() {
   return (
     <div className="hero">
       <div className="hero--image">
-        <img src="/src/assets/illustration-working.svg" />
+        <img src="/assets/illustration-working.svg" />
       </div>
       <div className="hero--content">
         <h1>More than just shorter links</h1>

@@ -10,7 +10,7 @@ function Features() {
           </p>
         </div>
         <div className="features--feature">
-          <img src="/src/assets/icon-brand-recognition.svg" />
+          <img src="/assets/icon-brand-recognition.svg" />
           <h3>Brand Recognition</h3>
           <p>
             Boost your brand recognition with each click. Generic links don't mean a thing. Branded
@@ -18,7 +18,7 @@ function Features() {
           </p>
         </div>
         <div className="features--feature">
-          <img src="/src/assets/icon-detailed-records.svg" />
+          <img src="/assets/icon-detailed-records.svg" />
           <h3>Detailed Records</h3>
           <p>
             Gain insights who is clicking your links. Knowing when and where people engage with your
@@ -26,7 +26,7 @@ function Features() {
           </p>
         </div>
         <div className="features--feature">
-          <img src="/src/assets/icon-fully-customizable.svg" />
+          <img src="/assets/icon-fully-customizable.svg" />
           <h3>Fully Customizable</h3>
           <p>
             Improve brand awareness and content discoverability through customizable links,
