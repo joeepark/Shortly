@@ -21,7 +21,7 @@ function Form() {
         </form>
       </div>
       <div className="shortened-links">
-        {shortUrl.forEach((url) => {
+        {shortUrl.forEach((url: string) => {
           console.log(url);
         })}
       </div>

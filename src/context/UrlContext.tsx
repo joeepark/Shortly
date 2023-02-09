@@ -4,16 +4,16 @@ const UrlContext = createContext<{ url: string }>({
   url: '',
 });
 
-export const UrlProvider = ({ children }) => {
+export const UrlProvider = ({ children }: any) => {
   const [url, setUrl] = useState('');
   const [inputValue, setInputValue] = useState('');
   const [shortUrl, setShortUrl] = useState([]);
 
-  const handleChange = (event: ChangeEvent<HTMLInputElement>) => {
+  const handleChange: React.ChangeEventHandler<HTMLInputElement> = (event) => {
     setInputValue(event.target.value);
   };
 
-  const handleSubmit = (event: ChangeEvent<HTMLFormElement>) => {
+  const handleSubmit: React.FormEventHandler<HTMLFormElement> = (event) => {
     event.preventDefault();
     setUrl(inputValue);
     const fetchData = async () => {
@@ -27,7 +27,7 @@ export const UrlProvider = ({ children }) => {
     };
     fetchData();
   };
-  
+
   return (
     <UrlContext.Provider value={{ handleChange, handleSubmit, inputValue, shortUrl }}>
       {children}
