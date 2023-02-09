@@ -200,7 +200,7 @@ a {
 /* form */
 .form--container {
   background-color: var(--Dark-Violet);
-  background-image: url('/src/assets/bg-shorten-desktop.svg');
+  background-image: url('/assets/bg-shorten-desktop.svg');
   background-position: center;
   background-size: 100% 100%;
   background-repeat: no-repeat;
@@ -307,7 +307,7 @@ h2 {
 
 /* cta */
 .cta {
-  background-image: url('/src/assets/bg-shorten-desktop.svg');
+  background-image: url('/assets/bg-shorten-desktop.svg');
   background-position: center;
   background-size: 100% 100%;
   background-repeat: no-repeat;
