@@ -9,19 +9,11 @@ function App() {
   return (
     <>
       <UrlProvider>
-        <header>
-          <Hero />
-        </header>
-        <main>
-          <Form />
-        </main>
-        <section>
-          <Features />
-        </section>
+        <Hero />
+        <Form />
+        <Features />
         <CTA />
-        <footer>
-          <Footer />
-        </footer>
+        <Footer />
       </UrlProvider>
     </>
   );

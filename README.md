@@ -8,7 +8,7 @@ https://shortly-jp.netlify.app/
 ### Clone this repository
 
 ```bash
-git clone https://github.com/davidkim7773/covid-stats.git
+git clone git@github.com:joeepark/Shortly-Website.git
 ```
 
 ### Install dependencies
