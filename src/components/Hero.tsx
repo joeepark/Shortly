@@ -1,9 +1,10 @@
+import hero from '/src/assets/illustration-working.svg';
 function Hero() {
   return (
     <header>
       <div className="hero">
         <div className="hero--image">
-          <img src="/src/assets/illustration-working.svg" />
+          <img src={hero} />
         </div>
         <div className="hero--content">
           <h1>More than just shorter links</h1>
