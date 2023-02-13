@@ -3,6 +3,12 @@ Recreated website using TypeScript, CSS, and HTML following a JPG and Figma desi
 
 https://shortly-jp.netlify.app/
 
+<center>
+<img src="./public/1.png">
+<img src="./public/2.jpg">
+</center>
+<br>
+
 ## Getting Started
 
 ### Clone this repository
